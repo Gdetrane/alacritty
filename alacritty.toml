@@ -1,0 +1,42 @@
+
+[terminal.shell]
+args = ['--login']
+program = "/usr/bin/fish"
+
+[font]
+size = 14.0
+builtin_box_drawing = false
+
+[font.normal]
+family = "JetBrainsMono"
+
+[window]
+startup_mode = "Windowed"
+dynamic_padding = true
+opacity = 0.95
+blur = true
+decorations = "Full"
+
+[window.padding]
+x = 6
+y = 0
+
+[font.offset]
+x = 0
+y = 1
+
+[env]
+TERM = "xterm-256color"
+
+[mouse]
+
+bindings = [
+  {mouse = "Middle", mods = "Control", action = "Paste"}
+]
+
+[general]
+import = [
+  "~/.config/alacritty/themes/catppuccin-macchiato.toml"
+]
+
+[terminal]
